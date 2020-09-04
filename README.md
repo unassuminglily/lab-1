@@ -1,11 +1,7 @@
-# Lab-1 Git Repository Seed
+### My Portfolio
+Learn more about me here.
 
-This file is the template for the first lab in Ashesi Web Development 2020.
+I'll most likely change this with bootstrap if I don't make it responsive or it doesn't look nice enough for me
 
-## Contents
-
-This repository contains a single file, a script for gathering the basic configuration of the user from bash.
-
-## Using the file
-
-Please refer to your lab instructions for definitive directions. In general, clone this repository to a new repository in your user space.
+Links:
+To be put here 
