@@ -1,0 +1,134 @@
+body{
+    margin:2%;
+    font-size: 125%;
+    background-color: #DACFBC;
+    text-align: justify;
+}
+
+header {
+    background-color: #241A16;
+    margin: 0;   
+    font-size: 90%;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+nav {
+    padding: 3% 3%;
+    overflow: hidden;  
+}
+
+
+nav>a {
+    display: inline-block;
+    margin: 4.5%;
+    border-radius: 4%;
+    text-decoration: none;
+    font-size: 90%;
+    padding: 4.5%;
+}
+
+nav a:active {
+    /*background-color:#C3B3A4;*/
+    color: #7777d1;
+}
+
+nav a:hover{
+    background-color: #C3B3A4;
+}
+
+
+img.resize {
+    max-width:60%;
+    max-height:60%;
+  }
+
+.left{
+    width:45%;
+    margin-right: 2%;
+    float: left;
+}
+
+.right{
+    width: 45%;
+    /*margin-left: 2%;*/
+    float: right;
+}
+
+footer{
+    clear: both;
+}
+    
+
+
+
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px){
+   
+    img.resize{
+        display: inline-block;
+        width: 50%;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    
+
+    .left img{
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto ;
+        width: 90%;
+    }
+
+    .right{
+        width: 95%;
+        
+    }
+
+    
+}
+
+/************tablet view**********/
+@media(min-width:768px) and (max-width: 991px) {
+    img.resize{
+        display: inline-block;
+        width: 50%;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    .left {
+        width: 45%;
+        float: left;
+    }
+    .right {
+        width: 45%;
+        float: right;
+        
+    }
+}
+
+/*desktop view*/
+ 
+@media(min-width: 992px) {
+    .left {
+        width: 45%;
+        float: left;
+    }
+    .right {
+        width: 45%;
+        float: right;
+        
+    }
+}
+
