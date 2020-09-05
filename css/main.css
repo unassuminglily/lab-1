@@ -5,11 +5,11 @@ body{
     text-align: justify;
 }
 
-header {
+/*header {
     background-color: #241A16;
     margin: 0;   
     font-size: 90%;
-}
+}*/
 
 h1{
     text-align: center;
@@ -20,8 +20,8 @@ h2{
 }
 
 nav {
-    padding: 3% 3%;
-    overflow: hidden;  
+    padding: 0.5% 0.5%;
+    
 }
 
 
@@ -30,8 +30,8 @@ nav>a {
     margin: 4.5%;
     border-radius: 4%;
     text-decoration: none;
-    font-size: 90%;
-    padding: 4.5%;
+    font-size: 100%;
+    padding: 2%;
 }
 
 nav a:active {
@@ -45,18 +45,18 @@ nav a:hover{
 
 
 img.resize {
-    max-width:60%;
-    max-height:60%;
+    max-width:80%;
+    max-height:80%;
   }
 
 .left{
-    width:45%;
+    width:60%;
     margin-right: 2%;
     float: left;
 }
 
 .right{
-    width: 45%;
+    width: 35%;
     /*margin-left: 2%;*/
     float: right;
 }
