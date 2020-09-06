@@ -5,12 +5,11 @@ body {
     text-align: justify;
 }
 
-
-/*header {
+header {
     background-color: #241A16;
-    margin: 0;   
     font-size: 90%;
-}*/
+    margin-bottom: 5%;
+}
 
 h1 {
     text-align: center;
@@ -26,11 +25,13 @@ nav {
 
 nav>a {
     display: inline-block;
-    margin: 4.5%;
+    margin: 0 3%;
     border-radius: 4%;
+    color: #DACFBC;
     text-decoration: none;
+    text-align: center;
     font-size: 100%;
-    padding: 2%;
+    padding: 0.5%;
 }
 
 nav a:active {
@@ -44,7 +45,7 @@ nav a:hover {
 
 img.resize {
     max-width: 60%;
-    max-height: 60%;
+    max-height: 50%;
     border-radius: 5%;
 }
 
@@ -61,71 +62,10 @@ img.resize {
 }
 
 footer {
+    background-color: #241A16;
+    font-size: 90%;
+    color: #DACFBC;
+    text-align: center;
+    margin-bottom: 5%;
     clear: both;
 }
-
-
-/********** Extra small devices only **********
-
-@media (max-width: 767px){
-   
-    img.resize{
-        display: inline-block;
-        width: 50%;
-        border-radius: 50%;
-        margin: 0 auto;
-    }
-
-    
-
-    .left img{
-        display: block;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto ;
-        width: 90%;
-    }
-
-    .right{
-        width: 95%;
-        
-    }
-
-    
-}
-
-/************tablet view*********
-@media(min-width:768px) and (max-width: 991px) {
-    img.resize{
-        display: inline-block;
-        width: 50%;
-        border-radius: 50%;
-        margin: 0 auto;
-    }
-
-    .left {
-        width: 45%;
-        float: left;
-    }
-    .right {
-        width: 45%;
-        float: right;
-        
-    }
-}
-
-/*desktop view*
- 
-@media(min-width: 992px) {
-    .left {
-        width: 45%;
-        float: left;
-    }
-    .right {
-        width: 45%;
-        float: right;
-        
-    }
-}
-
-*/
